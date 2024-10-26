@@ -3,10 +3,10 @@ pkgver=1.0.0
 pkgrel=1
 pkgdesc="MyMind Electron App"
 arch=('x86_64')
-url="https://github.com/andreavillar/mymind-electron-app"
+url="https://github.com/AndreaKinder/mymind-electron-app"
 license=('MIT')
 depends=('electron' 'nodejs')
-source=("https://github.com/andreavillar/mymind-electron-app/archive/v1.0.0.tar.gz")
+source=("https://github.com/AndreaKinder/mymind-electron-app/archive/v1.0.0.tar.gz")
 sha256sums=('YOUR_SHA256SUM')
 
 build() {
