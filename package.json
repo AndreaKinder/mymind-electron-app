@@ -1,0 +1,37 @@
+{
+  "name": "mymind-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "tech.andreavillar.app",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icons/win-icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icons/mac-icon.icns"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm"
+      ],
+      "icon": "assets/icons/mymind-ico.ico",
+      "category": "Development"
+    }
+  }
+}
