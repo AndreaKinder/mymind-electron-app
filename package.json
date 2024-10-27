@@ -8,10 +8,13 @@
     "build": "electron-builder"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Andrea Villar",
+    "email": "andreavillartr@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
-    "electron": "^12.0.2",
+    "electron": "^33.0.2",
     "electron-builder": "^25.1.8"
   },
   "build": {
@@ -30,8 +33,8 @@
         "deb",
         "rpm"
       ],
-      "icon": "assets/icons/mymind-ico.ico",
-      "category": "Development"
+      "icon": "assets/icons/mymind-ico.png",
+      "category": "Utility"
     }
   }
 }
