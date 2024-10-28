@@ -1,6 +1,9 @@
 # MyMind Electron App
 Esta es una adaptación con Electron de la aplicación web MyMind para usarla en versión de escritorio. La aplicación permite gestionar tus notas y pensamientos de manera eficiente y accesible desde tu escritorio.
 
+## Capturas de la Aplicación
+![mymind-electron-app](./screenshots/mymind-electron-app-screenshot.png)
+
 ## Características
 - Acceso rápido a MyMind desde el escritorio.
 - Funcionalidad completa de la aplicación web en una aplicación independiente.
@@ -8,8 +11,6 @@ Esta es una adaptación con Electron de la aplicación web MyMind para usarla en
 
 ## Instalación
 ### Requisitos
-
-
 - Node.js y npm instalados en tu sistema.
 - [Electron](https://www.electronjs.org/) instalado globalmente.
 
