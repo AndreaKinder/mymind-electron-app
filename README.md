@@ -1,3 +1,4 @@
+Español | [English](README-en.md)
 # MyMind Electron App
 Esta es una adaptación con Electron de la aplicación web MyMind para usarla en versión de escritorio. La aplicación permite gestionar tus notas y pensamientos de manera eficiente y accesible desde tu escritorio.
 
